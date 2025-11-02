@@ -1,7 +1,13 @@
-import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-router-dom';
-import './App.css';
-import TermsOfUse from './pages/TermsOfUse';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+  Link,
+} from "react-router-dom";
+import "./App.css";
+import TermsOfUse from "./pages/TermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -12,16 +18,22 @@ function App() {
             <span className="AppBrand-highlight">Custom Photo Collage</span>
           </div>
           <nav className="AppNav">
-            <Link to="/terms">Terms of Use</Link>
-            <Link to="/privacy">Privacy Policy</Link>
+            <Link to="/custom-photo-collage/terms">Terms of Use</Link>
+            <Link to="/custom-photo-collage/privacy">Privacy Policy</Link>
           </nav>
         </header>
 
         <main className="AppContent">
           <Routes>
             <Route path="/" element={<Navigate to="/terms" replace />} />
-            <Route path="/terms" element={<TermsOfUse />} />
-            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route
+              path="/custom-photo-collage/terms"
+              element={<TermsOfUse />}
+            />
+            <Route
+              path="/custom-photo-collage/privacy"
+              element={<PrivacyPolicy />}
+            />
           </Routes>
         </main>
       </div>
