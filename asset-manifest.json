@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/collage-web/static/css/main.9a4cbcb9.css",
+    "main.js": "/collage-web/static/js/main.56e0b717.js",
+    "static/js/453.1a2cf779.chunk.js": "/collage-web/static/js/453.1a2cf779.chunk.js",
+    "index.html": "/collage-web/index.html",
+    "main.9a4cbcb9.css.map": "/collage-web/static/css/main.9a4cbcb9.css.map",
+    "main.56e0b717.js.map": "/collage-web/static/js/main.56e0b717.js.map",
+    "453.1a2cf779.chunk.js.map": "/collage-web/static/js/453.1a2cf779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a4cbcb9.css",
+    "static/js/main.56e0b717.js"
+  ]
+}
