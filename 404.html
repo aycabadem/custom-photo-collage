@@ -10,7 +10,11 @@
           "redirectPath",
           l.pathname + l.search + l.hash
         );
-        window.location.replace("%PUBLIC_URL%/");
+
+        var segments = l.pathname.split("/").filter(Boolean);
+        var repoBase = segments.length > 0 ? "/" + segments[0] : "";
+
+        window.location.replace(l.origin + repoBase + "/");
       })();
     </script>
   </head>
