@@ -12,7 +12,7 @@ import Support from "./pages/Support";
 
 function App() {
   return (
-    <Router basename="/collage-web">
+    <Router basename="/custom-photo-collage">
       <div className="App">
         <header className="AppHeader">
           <div className="AppBrand">
