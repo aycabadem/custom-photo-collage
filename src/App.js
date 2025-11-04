@@ -1,5 +1,5 @@
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -12,7 +12,7 @@ import Support from "./pages/Support";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/custom-photo-collage">
       <div className="App">
         <header className="AppHeader">
           <div className="AppBrand">
