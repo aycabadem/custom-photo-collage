@@ -6,7 +6,7 @@ const PrivacyPolicy = () => (
       <h1>Privacy Policy</h1>
       <p className="LegalPage-meta">Last Updated: January 26, 2026</p>
       <p className="LegalPage-subtitle">
-        This Privacy Policy explains how Custom Photo Collage (“the App”, “we”, “our”) handles user data, permissions,
+        This Privacy Policy explains how Frame - Photo Collage (“the App”, “we”, “our”) handles user data, permissions,
         analytics, subscriptions, and third-party services across both iOS and Android platforms.
       </p>
     </header>

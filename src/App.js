@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <header className="AppHeader">
           <div className="AppBrand">
-            <span className="AppBrand-highlight">Custom Photo Collage</span>
+            <span className="AppBrand-highlight">Frame - Photo Collage</span>
           </div>
           <nav className="AppNav">
             <Link to="/privacy">Privacy Policy</Link>
