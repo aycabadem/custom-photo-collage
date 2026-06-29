@@ -3,14 +3,14 @@
   "name": "Custom Photo Collage",
   "icons": [
     {
-      "src": "app_icon-192.png",
+      "src": "new-icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "app_icon.jpg",
+      "src": "new-app-icon-512.png",
       "sizes": "512x512",
-      "type": "image/jpeg"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
