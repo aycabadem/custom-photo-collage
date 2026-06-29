@@ -6,15 +6,16 @@ const PrivacyPolicy = () => (
       <h1>Privacy Policy</h1>
       <p className="LegalPage-meta">Last Updated: June 29, 2026</p>
       <p className="LegalPage-subtitle">
-        This Privacy Policy explains how Frame - Photo Collage Maker(“the App”,
+        This Privacy Policy explains how Frame - Photo Collage Maker (“the App”,
         “we”, “our”) handles user data, permissions, analytics, crash reporting,
         subscriptions, and third-party services across both iOS and Android
         platforms.
       </p>
     </header>
-    ```
+
     <section>
       <h2>1. Information We Collect</h2>
+
       <h3>1.1 Personal Information</h3>
       <p>
         We do not collect personal information such as your name, email address,
@@ -227,7 +228,6 @@ const PrivacyPolicy = () => (
         </a>
       </p>
     </section>
-    ```
   </article>
 );
 
